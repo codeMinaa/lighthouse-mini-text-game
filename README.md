@@ -1,0 +1,1 @@
+# lighthouse-mini-text-game

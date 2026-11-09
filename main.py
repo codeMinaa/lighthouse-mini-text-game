@@ -13,6 +13,8 @@ while game_running:
         if starting_energy > 0:
             print("you are exploring mystery island")
             starting_energy -= 1
+            if starting_energy == "0":
+              print("Energy Out!")
         else:
             print("you have no energy left!")
 
